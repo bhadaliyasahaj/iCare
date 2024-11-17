@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register With iCare</title>
+    <link rel="stylesheet" href="scss/register.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <form method="post" action="register.php">
+            <div class="container">
+                <div class="firstContainer">
+                    <div class="detailContainer">
+                        <div class="logowithname">
+                            <div class="logo">
+                                <img src="yogalogo.png" alt="">
+                            </div>
+                            <div class="name"><img src="icarename.png" alt=""></div>
+                        </div>
+                        <div class="createAccount">
+                            <h1>Create Account</h1>
+                            <div class="inputFields">
+                                <input type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+                                <input type="email" name="email" id="emailid" placeholder="Email Address" required>
+                                <input type="password" name="password" id="password" placeholder="Password" required>
+                                <div class="agreeCondition">
+                                    <input type="checkbox" name="condition" id="agree">
+                                    <label for="agree">I agree with <a href="#">Terms</a> and <a href="#">Privacy</a></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="signupandin">
+                            <button type="submit" id="submitBtn">SIGN UP</button>
+                            <button type="button">SIGN UP WITH GOOGLE</button>
+                        </div>
+                        <div class="haveAccount">
+                            <p>Already have an account? <a href="../Login/login.html">Log In</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondContainer">
+                    <div class="aboutandcontact">
+                        <p><a href="../Contact/contact.html">Contact</a></p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="register.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+    </main>
+
+    <script type="text/javascript" src="register.js"></script>
+
+</body>
+
+</html>

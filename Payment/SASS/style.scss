@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Cinzel:wght@500&family=Dancing+Script:wght@600;700&family=Poppins:wght@200;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d9d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .container {
+        width: 68vw;
+        height: 68vh;
+        // border: 2px solid black;
+        display: flex;
+        background-color: rgba(220, 220, 220, 0.7);
+        border-radius: 3.5rem;
+
+        & .part-1 {
+            width: 40%;
+            height: 100%;
+            // border: 2px solid red;
+            background-color: rgb(5, 62, 69);
+            padding: 2.5rem;
+            border-radius: 3.5rem 0 0 3.5rem;
+            color: #d9d7d7;
+
+            & .first {
+                width: 100%;
+                height: 30%;
+                // border: 2px solid rgb(0, 0, 79);
+                display: flex;
+
+                & .back {
+                    width: 40%;
+                    height: 100%;
+                    // border: 2px solid black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+
+                    & .confirm {
+                        width: 8rem;
+                        height: 8rem;
+                        border-radius: 50%;
+                        // border: 2px solid rgb(71, 71, 26);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transform: translateX(-90%);
+
+                        & p {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            width: 100%;
+                            height: 100%;
+                            font-size: 3rem;
+                            color: #d9d7d7;
+                            background-color: rgb(73, 6, 6);
+                        }
+                    }
+
+                }
+
+                & .logo {
+                    width: 60%;
+                    height: 100%;
+                    // border: 2px solid purple;
+                    position: relative;
+                    right: 3rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 3rem;
+
+                }
+            }
+
+            & .second {
+                width: 100%;
+                height: 70%;
+                // border: 2px solid brown;
+
+                & .total-amount {
+                    width: 100%;
+                    height: 50%;
+                    // border: 2px solid gold;
+                    padding: 2rem;
+
+                    & .total {
+                        font-size: 1.5rem;
+                        margin: 1.5rem;
+                    }
+
+                    & .amount {
+                        font-size: 5rem;
+
+                        & span {
+                            font-size: 3.5rem;
+                            color: rgb(119, 119, 119);
+                        }
+                    }
+                }
+
+                & .name {
+                    width: 100%;
+                    height: 50%;
+                    // border: 2px solid palevioletred;
+                    display: flex;
+                    flex-direction: column;
+
+                    & p {
+
+                        font-size: 1.5rem;
+                        margin-top: 3rem;
+                        margin-left: 4rem;
+
+                    }
+
+                    & input {
+                        width: 90%;
+                        background: none;
+                        border: none;
+                        margin: 1.5rem 1rem;
+                        font-size: 2rem;
+                        // color: rgb(158, 158, 158);
+                        color: #d9d7d7;
+                        background-color: rgba(98, 98, 98, 0.557);
+                        padding: 2rem;
+                        border-radius: 5rem;
+                        
+                    }
+                }
+
+            }
+        }
+
+        & .part-2 {
+            height: 100%;
+            width: 60%;
+            background-color: rgba(242, 242, 242, 0.8);
+            border-radius: 0 3.5rem 3.5rem 0;
+            color:#335e61;
+            // border: 2px solid green;
+
+            & .expiration {
+                width: 100%;
+                height: 33.33%;
+                // border: 2px solid black;
+                padding: 3rem;
+
+                & h3 {
+                    font-size: 1.6rem;
+                    margin-left: 4rem;
+                }
+
+                & input {
+                    margin-top: 1.5rem;
+                    margin-left: 1.5rem;
+                    width: 60%;
+                    height: 6rem;
+                    display: flex;
+                    justify-content: center;
+                    padding: 0 3rem;
+                    font-size: 2rem;
+                    color: rgb(158, 158, 158);
+                    background-color: rgba(196, 196, 196, 0.4);
+                    border: none;
+                    border-radius: 4rem;
+                }
+            }
+
+            & .cardnumber {
+                width: 100%;
+                height: 33.33%;
+                // border: 2px solid yellowgreen;
+                padding: 3rem;
+
+                & h3 {
+                    font-size: 1.6rem;
+                    margin-left: 4rem;
+                }
+
+                & input {
+                    margin-top: 1.5rem;
+                    margin-left: 1.5rem;
+                    width: 60%;
+                    height: 6rem;
+                    display: flex;
+                    justify-content: center;
+                    padding: 0 3rem;
+                    font-size: 2rem;
+                    color: rgb(120, 120, 120);
+                    background-color: rgba(196, 196, 196, 0.5);
+                    border: none;
+                    border-radius: 4rem;
+                }
+            }
+
+            & .cvc-code {
+                width: 100%;
+                height: 33.33%;
+                // border: 2px solid brown;
+                padding: 3rem;
+                display: flex;
+
+                & .cvc {
+                    // border: 2px solid black;
+                    width: 40%;
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+
+                    & h3 {
+                        font-size: 1.6rem;
+                    }
+
+                    & input {
+                        margin-top: 1.5rem;
+                        // margin-left: 1.5rem;
+                        width: 50%;
+                        height: 6rem;
+                        display: flex;
+                        justify-content: center;
+                        padding: 0 3rem;
+                        font-size: 2rem;
+                        background-color: rgba(196, 196, 196, 0.5);
+                        color: rgb(120, 120, 120);
+                        border: none;
+                        border-radius: 4rem;
+                    }
+                }
+
+                & .zipcode {
+                    width: 40%;
+                    // border: 2px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+
+                    & h3 {
+                        font-size: 1.6rem;
+                    }
+
+                    & input {
+                        margin-top: 1.5rem;
+                        // margin-left: 1.5rem;
+                        width: 60%;
+                        height: 6rem;
+                        display: flex;
+                        justify-content: center;
+                        padding: 0 3rem;
+                        font-size: 2rem;
+                        color: rgb(120, 120, 120);
+                        background-color: rgba(196, 196, 196, 0.5);
+                        border: none;
+                        border-radius: 4rem;
+                    }
+                }
+
+                & .confirm {
+                    width: 20%;
+                    // border: 2px solid rgb(71, 71, 26);
+                    transform: translate(70%);
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    & p {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5rem;
+                        width: 8rem;
+                        height: 8rem;
+                        font-size: 3rem;
+                        color: #d9d7d7;
+                        background-color: rgb(73, 6, 6);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "plans": [
+        {
+            "id": 1,
+            "amount":"$20.40",
+            "plan_type":"Annual Plan Active",
+            "plan_validity":"1 Year",
+            "plan_insert":"+1 year"
+        },
+        {
+            "id": 2,
+            "amount":"$23.20",
+            "plan_type":"6 Month Plan Active",
+            "plan_validity":"6 Months",
+            "plan_insert":"+6 month"
+        },
+        {
+            "id": 3,
+            "amount":"$25.10",
+            "plan_type":"Monthly Plan Active",
+            "plan_validity":"1 Month",
+            "plan_insert":"+1 month"
+        }
+    ]
+}

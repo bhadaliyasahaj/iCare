@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Cinzel:wght@500&family=Dancing+Script:wght@600;700&family=Poppins:wght@200;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #335E61;
+    // font-family: 'Athiti', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    width: 80vw;
+    height: 85vh;
+    background-color: #CACACA;
+    display: flex;
+    flex-direction: row-reverse;
+
+    & .firstContainer {
+        width: 50%;
+        height: 100%;
+        background-color: #FFFFFF;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .detailContainer {
+            width: 60%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            & .logowithname {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 1rem;
+
+                // margin-top: 5rem;
+                & .logo {
+
+                    // border: 2px solid black;
+                    & img {
+                        width: 4rem;
+                        height: 4rem;
+                    }
+                }
+
+                & .name {
+                    height: 4rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    & img {
+                        width: 10rem;
+                        height: 3.7rem;
+                    }
+                }
+            }
+
+            & .loginAccount {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 100%;
+                // height: 40%;
+                font-size: 1.2rem;
+                // border: 2px solid black;
+                h1{
+                    font-weight: 600;
+                }
+
+                & .inputFields {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 1.3rem;
+                    position: relative;
+
+                  
+                    #eye{
+                        position: absolute;
+                        top: 5rem;
+                        right: 1rem;
+                        font-size: 1.5rem ;
+                    }
+
+                    & input {
+                        width: 100%;
+                        padding: 0.7rem 1rem;
+                        margin: 0.5rem 0;
+                        border: 1px solid gray;
+                        border-radius: 2px;
+                    }
+
+                    & .agreeCondition {
+                        display: flex;
+                        align-items: center;
+                        // justify-content: center;
+                        margin-top: 1rem;
+
+                        & input {
+                            cursor: pointer;
+                            // margin: 0.5rem 1rem;
+                            margin-right: 1rem;
+                            width: auto;
+                        }
+
+                        & a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            & .signin {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                 button {
+                    text-align: center;
+                    margin: 1rem 0rem;
+                    list-style: none;
+                    background-color: #335E61;
+                    width: 100%;
+                    padding: 0.6rem;
+                    cursor: pointer;
+                    font-size: 1.4rem;
+                    border-radius: 0.8rem;
+                    text-decoration: none;
+                    color: white;
+                    border: none;
+                    
+                }
+            }
+
+            & .donothaveAccount {
+                display: flex;
+                justify-content: center;
+                font-size: 1.5rem;
+
+                & p {
+                    color: gray;
+                    // font-weight: 600;
+
+                    & a {
+                        cursor: pointer;
+                        text-decoration: none;
+                        color: #335E61;
+                        // font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    & .secondContainer {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        // justify-content: space-evenly;
+
+        & .aboutandcontact {
+            margin: 1.5rem;
+            justify-self: end;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            // border: 2px solid black;
+            width: 90%;
+            font-size: 1.4rem;
+            height: 3rem;
+            font-weight: bolder;
+            // color: #335E61;
+
+            & p {
+                & a {
+                    margin: 1rem;
+                    text-decoration: none;
+                    color: #335E61;
+                }
+            }
+        }
+
+        & .imageContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4rem;
+            height: 70%;
+
+            & img {
+                height: 100%;
+                width: 90%;
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "classDetails": [
+        {
+            "id": 1,
+            "videosrc": "https://v.ftcdn.net/03/64/73/10/240_F_364731046_Rni5hWy0kXUx1VpRwH4Phq7O5zwKFNXX_ST.mp4",
+            "heading": "Partner Yoga",
+            "content": "Partner yoga is a practice that fosters trust, communication, and intimacy between partners. In addition to deepening your connection with your partner, practicing partner yoga offers numerous benefits for both body and mind. Some of the benefits of yoga include improved flexibility, strength, balance, and posture. It can also help reduce stress, anxiety, and depression, while promoting relaxation and overall well-being.",
+            "level": "Intermediate",
+            "classduration": "60 min",
+            "coachname": "Mukul Chowdhary",
+            "aboutcoach": "Mukul is a certified yoga instructor with over 15 years of experience. She specializes in partner yoga and is passionate about helping individuals and couples deepen their practice and cultivate greater harmony.",
+            "coachimageurl": "face-1.avif",
+            "props": "Yoga mats, comfortable clothing, water"
+        },
+        {
+            "id": 2,
+            "videosrc": "https://v.ftcdn.net/03/19/33/20/240_F_319332036_MeFrnHGyUhRWVRXIk5Txm5ZXmUWTKAtX_ST.mp4",
+            "heading": "Prenatal Yoga",
+            "content": "Prenatal yoga is a gentle practice designed specifically for pregnant women to support their physical and emotional well-being during pregnancy. It incorporates modified yoga poses, breathing exercises, and relaxation techniques to help expectant mothers stay fit, relieve pregnancy-related discomfort, and prepare for childbirth. Some of the benefits of prenatal yoga include improved flexibility, strength, and endurance, reduced stress and anxiety, better sleep, and increased connection with the baby. It also provides an opportunity for women to connect with other expectant mothers and share experiences.",
+            "level": "Beginner",
+            "classduration": "60 minutes",
+            "coachname": "Parul Jain",
+            "aboutcoach": "Parul is a certified yoga instructor specializing in prenatal yoga. With a background in women's health and pregnancy support, she is dedicated to empowering pregnant women through yoga practice and helping them navigate the physical and emotional changes of pregnancy with confidence and ease.",
+            "coachimageurl": "face-3.avif",
+            "props": "Yoga mats, comfortable clothing, water"
+        },
+        {
+            "id": 3,
+            "videosrc": "https://v.ftcdn.net/06/21/82/66/240_F_621826628_GMG661459lMBi54quiN8N2zxWbveRthU_ST.mp4",
+            "heading": "Family Yoga",
+            "content": "Family yoga is a wonderful way for families to bond, relax, and stay healthy together. It's a practice that encourages connection, communication, and fun while exploring yoga postures, breathing exercises, and relaxation techniques suitable for all ages. Family yoga classes often include partner poses, group activities, and games to engage children and adults alike. Practicing yoga as a family can strengthen relationships, improve physical fitness, reduce stress, and create lasting memories. It's a time for families to come together, support each other, and celebrate their unique bonds.",
+            "level": "All Levels",
+            "classduration": "60 minutes",
+            "coachname": "Shrishti Malpath",
+            "aboutcoach": "Shrishti is a certified yoga instructor and a mother of three. She has a passion for bringing families together through yoga and creating a supportive environment where everyone can thrive. With her playful approach and inclusive teaching style, she aims to make yoga enjoyable and accessible for all family members, regardless of age or experience.",
+            "coachimageurl": "face-5.avif",
+            "props": "Yoga mats, comfortable clothing, water"
+        },
+        {
+            "id": 4,
+            "videosrc": "https://v.ftcdn.net/06/16/23/78/240_F_616237846_tENnfaUMdAZ7d2Q7ba1J86iAp4LWL9JA_ST.mp4",
+            "heading": "Laughter Yoga",
+            "content": "Laughter yoga is a unique and joyful practice that combines laughter exercises with yogic breathing techniques. It's based on the principle that laughter is a powerful tool for promoting physical, mental, and emotional well-being. In a laughter yoga session, participants engage in playful activities and laughter exercises led by a certified laughter yoga instructor. These activities encourage spontaneous laughter, which can help reduce stress, boost mood, strengthen the immune system, and improve overall health. Laughter yoga is suitable for all ages and fitness levels, and no prior yoga experience is required. It's a fun and uplifting practice that can leave you feeling energized, refreshed, and more connected to yourself and others.",
+            "level": "All Levels",
+            "classduration": "60 minutes",
+            "coachname": "Mukul Chowdhary",
+            "aboutcoach": "Mukul is a certified laughter yoga instructor with a background in psychology and holistic wellness. He is passionate about the healing power of laughter and its ability to transform lives. Through laughter yoga, he aims to create a supportive and uplifting environment where people can experience the many benefits of laughter and cultivate joy and resilience in their lives.",
+            "coachimageurl": "face-1.avif",
+            "props": "Comfortable clothing, willingness to laugh"
+        },
+        {
+            "id": 5,
+            "videosrc": "https://v.ftcdn.net/02/18/91/98/240_F_218919881_yAB4cznBqB9lWSQvcs5BIJtJd4dXRzUG_ST.mp4",
+            "heading": "Chair Yoga",
+            "content": "Chair yoga is a gentle form of yoga that is practiced sitting on a chair or standing using a chair for support. It's specifically designed to make yoga accessible for seniors, individuals with limited mobility, or those who prefer a seated practice. Chair yoga incorporates modified yoga poses, breathing exercises, and meditation techniques to improve flexibility, strength, and balance, reduce stiffness and joint pain, and promote relaxation and well-being. It's a safe and effective way for seniors to stay active, improve their overall health, and enhance their quality of life. Chair yoga can be practiced by anyone, regardless of age or fitness level.",
+            "level": "Beginner",
+            "classduration": "60 minutes",
+            "coachname": "Parul Jain",
+            "aboutcoach": "Parul is a certified yoga instructor specializing in chair yoga for seniors. With a background in physical therapy and geriatric care, she is passionate about helping seniors stay healthy and active as they age. Through chair yoga, she aims to provide gentle and accessible practices that empower seniors to maintain their mobility, independence, and vitality.",
+            "coachimageurl": "face-3.avif",
+            "props": "Sturdy chair, comfortable clothing"
+        },
+        {
+            "id": 6,
+            "videosrc": "https://v.ftcdn.net/03/14/34/03/240_F_314340395_kna18lbHCDNe81QhApqrcgyJp6EP3GXd_ST.mp4",
+            "heading": "Transcendental Meditation",
+            "content": "Transcendental Meditation (TM) is a technique for reducing stress and promoting relaxation. It involves sitting comfortably with eyes closed for 15-20 minutes while silently repeating a mantra. TM aims to transcend or go beyond the ordinary thinking process, allowing the mind to settle into a state of deep restfulness and inner calm. Practitioners report benefits such as reduced stress and anxiety, improved focus and clarity, and enhanced overall well-being. TM is suitable for people of all ages and backgrounds and can be easily incorporated into daily life.",
+            "level": "All Levels",
+            "classduration": "60 minutes",
+            "coachname": "Shrishti Malpath",
+            "aboutcoach": "Shrishti Malpath is a certified meditation instructor with expertise in Transcendental Meditation. She holds a Ph.D. in Psychology and has extensive experience in mindfulness-based interventions. Dr. Gupta is dedicated to helping individuals harness the power of meditation to achieve mental clarity, emotional balance, and spiritual growth.",
+            "coachimageurl": "face-5.avif",
+            "props": "Comfortable seating, quiet environment"
+        },
+        {
+            "id": 7,
+            "videosrc": "https://v.ftcdn.net/05/42/14/38/240_F_542143832_qpufjBEadh5QrFVwVPONzpNPHcq9LfZR_ST.mp4",
+            "heading": "Breath Awareness",
+            "content": "Breath awareness meditation is a practice that involves focusing on the breath as a means of anchoring attention to the present moment. Practitioners sit comfortably with eyes closed and observe the natural rhythm of their breath without attempting to control it. This meditation technique helps cultivate mindfulness, reduce stress, and promote relaxation. By bringing awareness to the breath, individuals can develop greater clarity of mind and emotional balance. Breath awareness meditation is suitable for beginners and experienced practitioners alike, offering a simple yet powerful tool for enhancing overall well-being.",
+            "level": "All Levels",
+            "classduration": "60 minutes",
+            "coachname": "Parul Jain",
+            "aboutcoach": "Parul Jain is a certified meditation teacher with a background in mindfulness-based stress reduction (MBSR). She is passionate about sharing meditation practices that promote inner peace and well-being. With a gentle and compassionate approach, Sophia guides students in developing mindfulness skills to navigate life's challenges with greater ease and resilience.",
+            "coachimageurl": "face-3.avif",
+            "props": "Comfortable seating, quiet environment"
+          },          
+        {
+            "id": 8,
+            "videosrc": "https://v.ftcdn.net/02/40/31/53/240_F_240315345_vq3v8zQXjndNqpNCwl6noswaoGX4QytB_ST.mp4",
+            "heading": "Bodybuilding",
+            "content": "Bodybuilding is a fitness discipline focused on increasing muscle mass and strength through resistance training and proper nutrition. It involves targeted exercises to stimulate muscle growth and a diet rich in protein to support muscle repair and development. Bodybuilders aim to sculpt their physiques, achieving impressive muscle mass, strength, and definition. It requires dedication, patience, and a commitment to pushing physical limits to attain peak performance and aesthetics.",
+            "level": "Intermediate",
+            "classduration": "60 minutes",
+            "coachname": "Mukul Chowdhary",
+            "aboutcoach": "Mukul is a certified personal trainer and bodybuilding coach with over 10 years of experience. He has helped numerous clients achieve their fitness goals through tailored workout programs and nutrition plans. With a passion for bodybuilding, John aims to inspire and motivate individuals to unlock their full potential and transform their bodies.",
+            "coachimageurl": "face-1.avif",
+            "props": "Barbells, dumbbells, resistance bands"
+        },
+        {
+            "id": 9,
+            "videosrc": "https://v.ftcdn.net/06/52/72/43/240_F_652724376_4f7aixIYE6oAWgpdpwFZfF7w9AmukVUa_ST.mp4",
+            "heading": "Weight Loss",
+            "content": "Embark on a transformative journey focused on reducing body fat and improving overall health through balanced nutrition and regular exercise. This program incorporates a variety of cardio and strength training exercises, along with mindful eating habits and lifestyle changes, to create a sustainable approach to weight loss. By creating a caloric deficit and adopting healthy habits, individuals can achieve their weight loss goals and improve their quality of life.",
+            "level": "Beginner",
+            "classduration": "60 minutes",
+            "coachname": "Parul Jain",
+            "aboutcoach": "Parul is a certified fitness instructor and nutrition coach with a passion for helping individuals achieve their weight loss goals. With years of experience in the fitness industry, she provides personalized guidance and support to clients, empowering them to make lasting changes to their health and wellness.",
+            "coachimageurl": "face-3.avif",
+            "props": "Exercise mat, dumbbells, resistance bands"
+        }
+    ]
+}
